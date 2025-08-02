@@ -114,13 +114,18 @@ Monitor node status with tools like UptimeKuma or the @azteccheck_bot on Telegra
 
 Advanced Configuration
 
-Custom Ports: Modify docker-compose.yml to change ports if 40400 or 8080 are in use.
+Custom Ports: 
+
+Modify docker-compose.yml to change ports if 40400 or 8080 are in use.
 Running a Sequencer or Prover: Add --sequencer to the entrypoint in docker-compose.yml or refer to the Aztec documentation for dedicated guides.
 Log Levels: Adjust LOG_LEVEL in .env (e.g., info, debug, trace) for more or less verbosity.
 
 Notes
+
 No Rewards Guaranteed: 
-Running a node may not guarantee airdrops or rewards. Check the Aztec Discord for updates.
+
+Running a node may not guarantee airdrops or rewards. 
+Check the Aztec Discord for updates.
 Network Changes: The alpha-testnet configuration may change. Verify the latest setup in the Aztec documentation.
 Hardware: Ensure your server meets the minimum requirements to avoid performance issues.
 Security: Regularly update your system and Docker images:bash
